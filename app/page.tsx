@@ -4,6 +4,7 @@ import WorkHistory from "@/components/pages/home/WorkHistory";
 import { Projects } from "@/components/pages/home/Projects";
 import { HomeSocials } from "@/components/pages/home/SocialLinks";
 import { HomeContact } from "@/components/pages/home/Contact";
+import EducationHistory from "@/components/pages/home/EducationHistory";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero />
       <HomeTechStack />
       <WorkHistory />
+      <EducationHistory />
       {/*<Projects />*/}
       <HomeSocials />
       <HomeContact />
