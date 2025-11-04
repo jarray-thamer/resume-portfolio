@@ -11,7 +11,7 @@ export default function Home() {
       <Hero />
       <HomeTechStack />
       <WorkHistory />
-      {//<Projects />}
+      {/*<Projects />*/}
       <HomeSocials />
       <HomeContact />
     </div>
