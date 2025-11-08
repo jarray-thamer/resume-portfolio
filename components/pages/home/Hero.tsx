@@ -27,7 +27,7 @@ const Hero = () => {
       <div className="mb-5 text-md leading-[1.75] space-y-1.75">
         <p>
           <span className="sm:inline-block sm:mb-1.75">
-            A full-stack developer based in Kairouan,{" "}
+            A full-stack developer based in Sousse,{" "}
             <span className="hidden sm:inline-flex sm:items-center sm:gap-1.5">
               Tunisia
               <IconFlagTunis className="shrink-0 w-12 h-8 rounded-xs drop-shadow-[0_0_1px_rgba(0,0,0,0.1)]" />
