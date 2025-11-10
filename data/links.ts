@@ -7,7 +7,7 @@ export const links = {
   },
   social: {
     github: "https://github.com/jarray-thamer",
-    linkedin: "https://www.linkedin.com/in/ahudovich/",
+    linkedin: "https://www.linkedin.com/in/jarray-thamer-66390722b/",
     whatsapp: "https://wa.me/21699244710",
     instagram: "https://www.instagram.com/jarraythamer/",
   },
