@@ -3,6 +3,19 @@ import { Link } from "lucide-react";
 const experience = () => {
   return [
     {
+      title: "Software Developer Instructor",
+      company: "GoMyCode",
+      info: "Hybrid",
+      date: "2025 - Present",
+      current: true,
+      description: (
+        <p>
+          Serving as a Software Developer Instructor at GoMyCode, teaching and
+          guiding students in web development.
+        </p>
+      ),
+    },
+    {
       title: "Web Designer & Developer",
       company: "WeBloom",
       info: "Kairouan, Tunis | Remote",
