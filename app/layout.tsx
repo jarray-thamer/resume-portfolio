@@ -35,7 +35,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${patrickHand.variable} h-full font-mono text-md antialiased`}
       >
-        <Header />
+        {/* <Header /> */}
         {children}
         <Footer />
       </body>
