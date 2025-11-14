@@ -13,7 +13,7 @@ export default function Home() {
       <HomeTechStack />
       <WorkHistory />
       <EducationHistory />
-      {/*<Projects />*/}
+      <Projects />
       <HomeSocials />
       <HomeContact />
     </div>

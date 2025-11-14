@@ -4,6 +4,7 @@ export const links = {
   projects: {
     listingcat: "https://www.listingcat.com",
     blueskymeter: "https://blueskymeter.com",
+    qfc: "https://feedback-plus.thamerwebs.com",
   },
   social: {
     github: "https://github.com/jarray-thamer",
