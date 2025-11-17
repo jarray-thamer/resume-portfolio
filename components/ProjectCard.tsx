@@ -1,7 +1,7 @@
 import { ProjectStatus } from "@/components/ProjectStatus";
 import { cn } from "@/utils/cn";
 import type { ProjectStatusType } from "@/types/projectStatusTypes";
-import { ExternalLink } from "lucide-react";
+import { ExternalLink, GithubIcon } from "lucide-react";
 
 interface ProjectCardProps {
   name: string;
@@ -9,6 +9,7 @@ interface ProjectCardProps {
   status: ProjectStatusType;
   icon: React.ReactNode;
   link?: string;
+  src?: string;
 }
 
 export function ProjectCard({
@@ -17,6 +18,7 @@ export function ProjectCard({
   status,
   icon,
   link,
+  src,
 }: ProjectCardProps) {
   const Component = link ? "a" : "div";
 
@@ -38,7 +40,14 @@ export function ProjectCard({
         <ProjectStatus status={status} />
       </div>
 
-      <p className="text-sm text-tertiary">{description}</p>
+      <p className="text-sm text-tertiary border-b">{description}</p>
+      <a
+        href={src}
+        className="flex items-center gap-2 font-mono hover:underline underline-offset-2 text-xs mt-2"
+      >
+        Source code
+        <GithubIcon size={12} />
+      </a>
 
       {link && <ExternalLink className="absolute top-3 right-3 size-3.5" />}
     </Component>

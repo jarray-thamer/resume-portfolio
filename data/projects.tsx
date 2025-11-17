@@ -9,6 +9,7 @@ interface Project {
   status: ProjectStatusType;
   icon: React.ReactNode;
   link?: string;
+  src?: string;
 }
 
 const projects: Array<Project> = [
@@ -19,6 +20,7 @@ const projects: Array<Project> = [
     status: "active",
     icon: <QrCodeIcon />,
     link: links.projects.qfc,
+    src: "https://github.com/jarray-thamer/feedback-collector",
   },
   // {
   //   name: "Project Y",
